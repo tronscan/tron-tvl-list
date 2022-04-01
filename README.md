@@ -1,5 +1,5 @@
 # Adding new Defi project
-The JSON schema for Defi project includes: name, logoURI, homepage, CoinMarketCap ID, url, poolAddresses.
+The JSON schema for Defi project includes: name, logoURI, homepage, MarketCapLink, url, poolAddresses.
 
 Follow the steps below to add a new Defi project：
 1) Fork this repo.
@@ -9,7 +9,7 @@ Follow the steps below to add a new Defi project：
     "name": "SunSwap",
     "logoURI": "https://coin.top/production/upload/logo/sun10.png",
     "homepage": "http://sun.io/",
-    "CoinMarketCapID": "10529",
+    "MarketCapLink": "https://coinmarketcap.com/currencies/sun-token",
     "url": "https://apilist.tronscan.org/api/tvl",
     "category": "DEX",
     "poolAddresses": [
@@ -21,7 +21,7 @@ Follow the steps below to add a new Defi project：
 * `name`[Required]: your Defi project name.
 * `logoURI`[Required]: the logo URI of your Defi project.
 * `homepage`[Required]: the home page of your Defi project.
-* `CoinMarketCapID`[Optional]: so your TVL can appear on Coinmarketcap. Find your ID through (https://api.coinmarketcap.com/data-api/v3/map/all?listing_status=active,inactive,untracked&start=1&limit=10000).
+* `MarketCapLink`[Optional]: so your TVL can appear on Coinmarketcap or Coingecko. (https://coinmarketcap.com/currencies/#TOKEN or https://www.coingecko.com/en/coins/#TOKEN)
 
 * `url`[Required]: the url to get your specific Defi project's TVL, the result should be JSON format:
 ```
@@ -61,8 +61,8 @@ https://apilist.tronscan.org/api/tvl
 ##### Current TVL:
 $3298643126.37
 
-##### CoinMarketCap ID (so your TVL can appear on Coinmarketcap): (https://api.coinmarketcap.com/data-api/v3/map/all?listing_status=active,inactive,untracked&start=1&limit=10000)
-10529
+##### CoinMarketCap ID (so your TVL can appear on Coinmarketcap or Coingecko: (https://coinmarketcap.com/currencies/#TOKEN or https://www.coingecko.com/en/coins/#TOKEN)
+https://coinmarketcap.com/currencies/sun-token
 
 ##### Short Description:
 SUN is first integrated platform for stablecoin swap, stake-mining and self-governance on TRON.

@@ -14,7 +14,7 @@ DON'T modify any other project's contents.
 
 ##### Current TVL:
 
-##### CoinMarketCap ID (so your TVL can appear on Coinmarketcap): (https://api.coinmarketcap.com/data-api/v3/map/all?listing_status=active,inactive,untracked&start=1&limit=10000)
+##### MarketCap link (so your TVL can appear on Coinmarketcap or Coingecko): (https://coinmarketcap.com/currencies/#TOKEN or https://www.coingecko.com/en/coins/#TOKEN)
 
 ##### Short Description:
 
