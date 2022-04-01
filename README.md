@@ -1,9 +1,9 @@
 # Adding new Defi project
 The JSON schema for Defi project includes: name, logoURI, homepage, CoinMarketCap ID, url, poolAddresses.
 
-Follow the steps below to add a new token：
+Follow the steps below to add a new Defi project：
 1) Fork this repo.
-2) change the JSON file `defiProjectList.json`, adding such as: (PLEASE DO NOT REMOVE EXISITING PROJECTS)
+2) change the JSON file `defiProjectList.json`, adding such as: (PLEASE DO NOT REMOVE EXISITING CONTENTS)
 ```
 {
     "name": "SunSwap",
@@ -18,19 +18,22 @@ Follow the steps below to add a new token：
     ]
 }
 ```
-* `CoinMarketCapID`: so your TVL can appear on Coinmarketcap. Find your ID through (https://api.coinmarketcap.com/data-api/v3/map/all?listing_status=active,inactive,untracked&start=1&limit=10000).
+* `name`[Required]: your Defi project name.
+* `logoURI`[Required]: the logo URI of your Defi project.
+* `homepage`[Required]: the home page of your Defi project.
+* `CoinMarketCapID`[Optional]: so your TVL can appear on Coinmarketcap. Find your ID through (https://api.coinmarketcap.com/data-api/v3/map/all?listing_status=active,inactive,untracked&start=1&limit=10000).
 
-* `url`: the url result should be JSON format:
+* `url`[Required]: the url to get your specific Defi project's TVL, the result should be JSON format:
 ```
 {
     "tvl": 3298643126.37
 }
 ```
-where `3298643126.37` unit is `$` (dollar), is `tokenAmount * currentTokenPrice`.
+where `3298643126.37` unit is `$` (dollar), calculates as the sum of all `(StakedTokenAmount-BorrowedTokenAmount) * currentTokenPrice`.
 
-* `category`: (Yield/DEX/Lending/Minting/Assets/Insurance/Options/Indexes/Staking) Please choose only one.
+* `category`[Required]: (Yield/DEX/Lending/Minting/Assets/Insurance/Options/Indexes/Staking) Please choose only one.
 
-* `poolAddresses`: the pool contract addresses related with this Defi project.
+* `poolAddresses`[Required]: the pool contract addresses related with this Defi project.
 
 3) Submit PR with the changed JSON file.
 
@@ -38,7 +41,7 @@ Follow the PR template below:
 ```
 ## **Please provide the following information for your Defi project.**
 Please include change to the `defiProjectList.json` file in the PR.
-DON'T modify any other project on the list.
+DON'T modify any other projet's contents.
 
 ##### Twitter Link:
 https://twitter.com/defi_sunio

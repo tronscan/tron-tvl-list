@@ -1,6 +1,6 @@
 ## **Please provide the following information for your Defi project.**
 Please include change to the `defiProjectList.json` file in the PR.
-DON'T modify any other project on the list.
+DON'T modify any other project's contents.
 
 ##### Twitter Link:
 
