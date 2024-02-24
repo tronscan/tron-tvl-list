@@ -14,7 +14,7 @@ Follow the steps below to add a new Defi project：
     "category": "DEX",
     "poolAddresses": [
         "TKcEU8ekq2ZoFzLSGFYCUY6aocJBX9X31b",
-        "TAkrcKsS5FW9f3ZfzvWy6Zvsz9uEjUxPoV"
+        "TW88p2LW9vLgcdnuLkcEDmXM48721mSGXJ
     ]
 }
 ```
