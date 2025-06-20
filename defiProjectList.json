@@ -1,3 +1,13 @@
 [
-    
+  {
+    "name": "ExchangeBerry",
+    "logoURI": "https://raw.githubusercontent.com/exchangeberry/assets/master/blockchains/tron/assets/blockchains/tron/assets/TJfwgDTDLqXHHaDPJtJAjnT6V1eZWGcGPX/logo.png",
+    "homepage": "https://exchangeberry.com",
+    "MarketCapLink": "https://sunswap.com/#/scan/detail/TPykZrre6bw6o4Ge7UtJpkM9eHgfFeQECj", 
+    "url": "https://api.exchangeberry.com/tvl",
+    "category": "DEX",
+    "poolAddresses": [
+      "TPykZrre6bw6o4Ge7UtJpkM9eHgfFeQECj"
+    ]
+  }
 ]
