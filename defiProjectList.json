@@ -1,3 +1,23 @@
 [
-    
+{
+  "name": "USDTF",
+  "twitter": "https://x.com/roomshare7",
+  "audit": ["https://github.com/trotok-sud/USDTF/blob/main/docs/Usdtf%20Audit%20Report.pdf"],
+  "homepage": "https://trotok-sud.github.io/USDTWeb/",
+  "logo": {
+    "svg": "",
+    "png": "https://raw.githubusercontent.com/trotok-sud/USDTF/main/docs/logo.png"
+  },
+  "tvlUrl": "https://usdtf-tvl-production.up.railway.app/api/tvl",
+  "currentTvl": "$54,321.99",
+  "marketCapLink": "https://www.coingecko.com/en/coins/tether",
+  "description": "USDTF is a decentralized finance protocol on TRON featuring time-bound minting and burning of tokens, with transparent TVL tracking.",
+  "tokenAddress": "TCL6M2NnQ1Ath5MgYqpRuJBN1zXjuZa5F4",
+  "poolAddresses": [],
+  "category": "Minting",
+  "oracle": "WINkLink",
+  "forkedFrom": "",
+  "methodology": "TVL is calculated by summing (minted tokens – burned tokens) × current token price from TRON–WINkLink price feed."
+}
+
 ]
