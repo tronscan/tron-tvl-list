@@ -1,3 +1,50 @@
-[
-    
+[{
+    "name": "BASO",
+    "logoURI": "https://i.ibb.co/your-logo.png",
+    "homepage": "https://basotoken.com",
+    "MarketCapLink": "https://www.coingecko.com/en/coins/baso",
+    "url": "https://volimjasnu.github.io/baso-tvl-api/tvl.json",
+    "category": "Staking",
+    "poolAddresses": [
+        "TEU2X7bomU5rhX9QJGL86pQ6h65GNkb5wr"
+    ]
+}
+  {
+    "name": "SunSwap",
+    "logoURI": "https://coin.top/production/upload/logo/sun10.png",
+    "homepage": "http://sun.io/",
+    "MarketCapLink": "https://coinmarketcap.com/currencies/sun-token",
+    "url": "https://apilist.tronscan.org/api/tvl",
+    "category": "DEX",
+    "poolAddresses": [
+      "TKcEU8ekq2ZoFzLSGFYCUY6aocJBX9X31b",
+      "TAkrcKsS5FW9f3ZfzvWy6Zvsz9uEjUxPoV"
+    ]
+  },
+  {
+    "name": "JustLend",
+    "logoURI": "https://coin.top/production/upload/logo/justlend.png",
+    "homepage": "https://justlend.org/",
+    "MarketCapLink": "https://coinmarketcap.com/currencies/justlend",
+    "url": "https://apilist.tronscan.org/api/justlend_tvl",
+    "category": "Lending",
+    "poolAddresses": [
+      "TD7h53kQdTn2X3hYYa7tG5YjUPtMv8Rk1u"
+    ]
+  },
+  {
+  "name": "BASO DeFi",
+  "logoURI": "https://i.ibb.co/9VkLQym/baso-logo.png",
+  "homepage": "https://twitter.com/BasoKiler12",
+  "MarketCapLink": "",
+  "url": "https://volimjasnu12.github.io/baso-tvl-api/tvl.json",
+  "category": "Staking",
+  "poolAddresses": [
+    "TEU2X7bomU5rhX9QJGL86pQ6h65GNkb5wr",
+    "TKcEU8ekq2ZoFzLSGFYCUY6aocJBX9X31b",
+    "TAkrcKsS5FW9f3ZfzvWy6Zvsz9uEjUxPoV"
+  ]
+}
 ]
+
+
