@@ -1,3 +1,9 @@
-[
-    
-]
+{
+    "name": "NOVS Project",
+    "symbol": "NVX",
+    "logoURI": "https://raw.githubusercontent.com/Tncyus/tron-tvc-list/main/novs.png",
+    "homepage": "https://novstoken.io",
+    "MarketCapLink": "https://dex.coinmarketcap.com/token/tron/TCj25XvrzuPgRS9H6KgdiBHQcbCYAQpABp/",
+    "url": "https://tronscan.org/#/token20/TCj25XvrzuPgRS9H6KgdiBHQcbCYAQpABp",
+    "poolAddresses": []
+}
