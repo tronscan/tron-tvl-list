@@ -12,7 +12,7 @@ Follow the steps below to add a new Defi project：
     "MarketCapLink": "https://coinmarketcap.com/currencies/sun-token",
     "url": "https://apilist.tronscan.org/api/tvl",
     "category": "DEX",
-    "poolAddresses": [
+    "poolAddresses": ["TJCCgnMJPBdhVQLKx9tBwp8zNwVeWVTj9C"
         "TKcEU8ekq2ZoFzLSGFYCUY6aocJBX9X31b",
         "TAkrcKsS5FW9f3ZfzvWy6Zvsz9uEjUxPoV"
     ]
@@ -31,9 +31,9 @@ Follow the steps below to add a new Defi project：
 ```
 where `3298643126.37` unit is `$` (dollar), calculates as the sum of all `(StakedTokenAmount-BorrowedTokenAmount) * currentTokenPrice`.
 
-* `category`[Required]: (Yield/DEX/Lending/Minting/Assets/Insurance/Options/Indexes/Staking) Please choose only one.
+* `category`[assets]: (Yield/DEX/Lending/Minting/Assets/Insurance/Options/Indexes/Staking) Please choose only one.
 
-* `poolAddresses`[Required]: the pool contract addresses related with this Defi project.
+* `poolAddresses`["TJCCgnMJPBdhVQLKx9tBwp8zNwVeWVTj9C"]: the pool contract addresses related with this Defi project.
 
 3) Submit PR with the changed JSON file.
 
@@ -71,7 +71,7 @@ SUN is first integrated platform for stablecoin swap, stake-mining and self-gove
 TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S
 
 ##### Pool addresses:
-TKcEU8ekq2ZoFzLSGFYCUY6aocJBX9X31b, TAkrcKsS5FW9f3ZfzvWy6Zvsz9uEjUxPoV.
+TKcEU8ekq2ZoFzLSGFYCUY6aocJBX9X31b, TAkrcKsS5FW9f3ZfzvWy6Zvsz9uEjUxPoV, TJCCgnMJPBdhVQLKx9tBwp8zNwVeWVTj9C.
 
 ##### Category (Yield/DEX/Lending/Minting/Assets/Insurance/Options/Indexes/Staking) *Please choose only one:
 DEX
